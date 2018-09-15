@@ -1,0 +1,76 @@
+body {
+  background: #333;
+  color: white;
+}
+
+.navbar {
+  border-bottom: #008ed6 3px solid;
+  opacity: 0.8;
+}
+
+#home-section {
+  background: url(../img/Home.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 1000px;
+}
+
+#home-section .dark-overlay {
+  position: "absolute";
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 1000px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#home-section .home-inner {
+  padding-top: 225px;
+}
+
+#home-section .fas,
+#create-section .fas {
+  color: #008ed6;
+  background: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#explore-section .fas,
+#share-section .fas {
+  background: #333;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.diamond {
+  cursor: pointer;
+  position: fixed;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  background-color: #008ed6;
+  width: 60px;
+  height: 60px;
+  bottom: 60px;
+  right: 60px;
+  border-radius: 10px;
+  transform: rotate(45deg);
+  padding: 5px 5px 5px 5px;
+  display: none;
+}
+
+#arrow {
+  font-size: 40px;
+  color: white;
+  transform: rotate(-45deg);
+}
+
+.show {
+  display: flex;
+}
+.noshow {
+  display: none;
+}
